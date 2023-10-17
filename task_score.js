@@ -12,7 +12,7 @@ averageScore = (sumScoreVvedenie + sumScoreGit + sumScoreJs) / 3;
 //console.log(sumScoreGit);
 //console.log(sumScoreVvedenie);
 //console.log(sumScoreJs);
-console.log(`Средний балл студента/студентки ${Username} ${Usersurname}: ${Math.ceil(averageScore)}`);
+console.log(`Средний балл студента/студентки ${Username = Username.slice(0,1)}.${Usersurname}: ${Math.ceil(averageScore)}`);
 
 
 
